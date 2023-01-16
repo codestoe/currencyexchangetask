@@ -4,7 +4,7 @@ Daten, die wir brauchen:
 - Die Ausgangswährung und die Währung in die konvertiert werden soll.
 - Den Konvertierungsfaktor von einer Währung in die andere.
 
-Die Daten sollen in einer Datenbank (z.B. h2 in memory oder deine Lieblingsdatenbank) liegen
+Die Daten sollen in einer Datenbank (z.B. h2 in memory oder deiner Lieblingsdatenbank) liegen
 
 Beispiel eines Datenbankeintrages:
 ```
