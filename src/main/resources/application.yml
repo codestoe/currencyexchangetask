@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: "currency-exchange-task"
+  jpa:
+    show-sql: true
+    defer-datasource-initialization: true
+  datasource:
+    url: jdbc:h2:mem:testdb
+  h2:
+    console:
+      enabled: true
+server:
+  port: 8080
