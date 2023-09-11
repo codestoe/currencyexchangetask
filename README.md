@@ -1,12 +1,12 @@
-# Aufgabe: Eine Rest-API bereitstellen, mit der man Währungen umrechnen kann.
+# Task: Provide a Rest APIs that can be used to convert currencies.
 
-Daten, die wir brauchen:
-- Die Ausgangswährung und die Währung in die konvertiert werden soll.
-- Den Konvertierungsfaktor von einer Währung in die andere.
+APIs we need:
+- The conversion factor from one currency to the other.
+- The conversion from currency and to currency.
 
-Die Daten sollen in einer Datenbank (z.B. h2 in memory oder deiner Lieblingsdatenbank) liegen
+The data should be stored in a database (e.g. h2 in memory or your favourite database).
 
-Beispiel eines Datenbankeintrages:
+Example of a database entry:
 ```
 {
   id: 1001,
@@ -16,8 +16,8 @@ Beispiel eines Datenbankeintrages:
 }
 ```
 
-Dann möchten wir zwei Endpunkte anbieten:
-- Endpunkt 1 gibt den Konvertierungsfaktor zwischen zwei Währungen zurück
-- Endpunkt 2 konvertiert eine Währung in eine andere Währung
-  - z.B.: USD -> EUR mit Wert 10 ergibt 9.2 EUR   
-- Wenn noch Zeit bleibt, kannst Du noch Integration-Tests für die Endpunkte schreiben.
+Then we would like you to create two endpoints:
+- Endpoint 1 returns the conversion factor between two currencies
+- Endpoint 2 converts one currency into another currency
+  - e.g.: USD -> EUR with value 10 results in 9.2 EUR
+- If there is still time, you can write integration tests for the endpoints.
