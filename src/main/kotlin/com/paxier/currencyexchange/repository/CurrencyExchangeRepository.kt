@@ -4,9 +4,10 @@ import com.paxier.currencyexchange.DataModel.CurrencyExchangeModel
 import org.springframework.data.repository.CrudRepository
 
 
-interface CurrencyExchangeRepository: CrudRepository<CurrencyExchangeModel, Any> {
+interface CurrencyExchangeRepository: CrudRepository<CurrencyExchangeModel, Long> {
 
     fun findByFromCurrencyAndToCurrency(fromCurrency: String, toCurrency: String): CurrencyExchangeModel
+
 
 //  id: 1001,
 //  fromCurrency: "USD",
