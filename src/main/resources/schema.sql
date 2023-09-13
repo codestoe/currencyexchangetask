@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS CURRENCYEXCHANGE
+(
+    id           VARCHAR(60) PRIMARY KEY,
+    fromCurrency VARCHAR NOT NULL,
+    toCurrency   VARCHAR NOT NULL,
+    exchangeRate FLOAT   NOT NULL
+);
